@@ -31,7 +31,7 @@ def Evaluate_PK(Pk,v):
 
 
 #read public key and ciphertext from file
-Pk, ciphertext = pickle.load( open( "Pk_ciphertext.p", "rb" ) )
+Pk, ciphertext = pickle.load( open( "Pk_ciphertext.pickle", "rb" ) )
 
 print("ciphertext vector:", ciphertext)
 print("ciphertext ASCII: ", vector_to_string(ciphertext))
